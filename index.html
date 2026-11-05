@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="./style.css">
+    <title>formulario</title>
+</head>
+<body>
+    
+<main class="container">
+    <div class="icone">
+        <img src="./imagens/atacadao_logo.jfif">
+    </div>
+    <h1>Trabalhe conosco - Atacadão</h1>
+    <p>preencha o formulario para trabalhar no Atacadão</p>
+
+    <form id="formulario">
+        <label for="nome">Nome Completo</label>
+        <input type="text" id="nome"
+        placeholder="Digite seu nome" required>
+
+<!--campo email-->
+<label for="email">Digite seu E-mail</label>
+<input type="email" id="email" placeholder="Digite seu email"required>        
+
+<label for="telefone">Telefone</label>
+<input type="tel" id="telefone" placeholder="(11)9999-99999" required>
+
+<label for="cargos">Seu cargo</label>
+<select id="cargo">
+<option value="">selecione uma opção</option>
+<option value="Operador de caixa">Operador de caixa</option>
+<option value="Repositor">Repositor</option>
+<option value="auxiliar de limpeza">Auxiliar de limpeza </option>
+<option value="Todas as opções">Todas as opções</option>
+
+
+
+
+</select>
+
+
+<label for="Mensagem">OBSERVAÇÕES</label>
+<textarea id="mensagem" placeholder="Digite sua Mensagem"></textarea>
+<button type="submit">Enviar solicitação</button>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </form>
+</main>
+
+
+
+
+
+
+
+
+<script src="./main.js"></script>
+</body>
+</html>
